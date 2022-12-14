@@ -412,7 +412,7 @@ section#hero .animation .circle {
   background-color: var(--black);
   border-radius: 50%;
   filter: blur(1.17rem);
-  opacity: 0.3;
+  opacity: 0.5;
   position: absolute;
   z-index: 0;
   /* animation-duration: 10s;
@@ -434,10 +434,11 @@ section#hero .animation .circle:nth-child(2) {
 section#hero .sprinkles span {
   background: white;
   position: absolute;
-  padding: 0.8rem 1.5rem;
+  padding: 0.6rem 1.2rem;
   border-radius: 25px;
   z-index: 2;
   border: 1px solid var(--blue);
+  color: var(--blue);
 }
 section#hero .sprinkles span:nth-child(1) {
   top: 110px;
@@ -457,8 +458,9 @@ section#hero .sprinkles span:before {
   width: 15px;
   height: 15px;
   position: absolute;
-  left: -20px;
-  top: -10px;
+  left: -15px;
+  top: -7px;
+  opacity: 0.9;
 }
 
 @-webkit-keyframes backgroundAnimation {
