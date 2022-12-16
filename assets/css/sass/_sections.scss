@@ -1,0 +1,39 @@
+section{
+    position: relative;
+    z-index: 1;
+    color:white;
+}
+// Services
+section.services{
+    min-height:800px;
+
+    .services-grid {
+        margin:0;
+        padding:0;
+        justify-content: space-between;
+        margin-top:3rem;
+        flex-wrap: wrap;
+
+        li {
+            width:30%;
+            border:1px solid white;
+            list-style: none;
+            padding:3rem;
+            min-height: 300px;
+            border-radius: 100%;
+            align-self: center;
+            text-align: center;
+            margin-top:2rem;
+
+            a{
+                color:white;
+                text-decoration: none;
+            }
+
+            &:hover {
+                background-color: darken($blue,20%);
+            }
+        }
+    }
+
+}

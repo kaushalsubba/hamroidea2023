@@ -1,4 +1,36 @@
 body{
     font-family: 'Poppins', sans-serif;
     margin:0;
+    background: linear-gradient(270deg, #07286b, var(--blue));
+}
+
+// Animation
+.animation .circle{
+    display:block;
+    width: 500px;
+    height:500px;
+    background-color: var(--navyblue);
+    border-radius: 50%;
+    filter:blur(1.17rem);
+    opacity: 0.5;
+    position: fixed;
+    z-index: 0;
+
+    /* animation-duration: 10s;
+    animation-name: transitionHeroCircles;
+    animation-iteration-count: infinite;
+    animation-direction: alternate; */
+
+    &:first-child{
+        top:0;
+        left:0;
+        transform: scale(calc(var(--heroPositionY)/80));
+    }
+
+    &:nth-child(2){
+        bottom:0;
+        left:80%;
+        background-color: rgb(30, 5, 119);
+        transform: scale(calc(var(--heroPositionY)/80));
+    }
 }

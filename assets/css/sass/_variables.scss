@@ -1,8 +1,15 @@
+$blue: #290AC8;
+$navyblue: #19067C;
+$white:#ffffff;
+$black:#000;
+
 :root {
-    --blue: #290AC8;
-    --white: #ffffff;
-    --black:#000;
-    --navyblue:#19067C;
+    --blue: #{$blue};
+    --white: #{$white};
+    --black:#{$black};
+    --navyblue:#{$navyblue};
     --heroPositionX:0;
     --heroPositionY:0;
   }
+
+  
